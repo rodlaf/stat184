@@ -37,7 +37,7 @@ plt.plot(X, vF_hat(X), label='Gaussian eCDF')
 plt.xlabel('Observations')
 plt.ylabel('Probability')
 plt.legend()
-plt.savefig('ps0_1')
+plt.savefig('ps0_6_2_a')
 
 # 6.2.b
 k_values = [1, 8, 64, 512]
@@ -54,4 +54,4 @@ for k in k_values:
     plt.plot(X, vF_hat(X), label='k = ' + str(k))
 
 plt.legend()
-plt.savefig('ps0_2')
+plt.savefig('ps0_6_2_b')
